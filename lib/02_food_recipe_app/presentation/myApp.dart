@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '01_widget_rule/presentation/main_screen.dart';
+import 'package:learn_flutter_together/02_food_recipe_app/presentation/sign_in/sign_in_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,10 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
       ),
-      home: const MyApp(),
+      home: const SignInScreen(),
     );
   }
 }
