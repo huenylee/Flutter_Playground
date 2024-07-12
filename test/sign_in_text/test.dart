@@ -84,7 +84,7 @@ void main() {
       await tester.pumpWidget(buildTestWidget());
       final textWidget = tester.widget<Text>(find.text(buttonTitle));
       expect(textWidget.style?.color, equals(CustomColors.white));
-      expect(textWidget.style?.fontSize, equals(Fonts.normalTextSemiBold.fontSize));
+      expect(textWidget.style?.fontSize, equals(Fonts.normalTextBold.fontSize));
       expect(textWidget.style?.fontWeight, equals(FontWeight.w500));
     });
 

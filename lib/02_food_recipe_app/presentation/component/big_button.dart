@@ -54,7 +54,7 @@ final class _BigButtonState extends State<BigButton> {
               child: Center(
                 child: Text(
                   widget.title,
-                  style: Fonts.normalTextSemiBold.copyWith(color: CustomColors.white),
+                  style: Fonts.normalTextBold.copyWith(color: CustomColors.white),
                 ),
               ),
             ),
